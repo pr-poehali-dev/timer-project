@@ -25,7 +25,7 @@ const TimerControls: React.FC<TimerControlsProps> = ({
         className={`h-16 w-16 rounded-full text-white font-bold transition-all duration-300 transform hover:scale-110 ${
           isRunning
             ? "bg-red-500 hover:bg-red-600"
-            : "bg-indigo-600 hover:bg-indigo-700"
+            : "bg-red-500 hover:bg-red-600"
         }`}
       >
         <Icon name={isRunning ? "Pause" : "Play"} size={24} />
