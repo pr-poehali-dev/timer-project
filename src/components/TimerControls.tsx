@@ -35,7 +35,7 @@ const TimerControls: React.FC<TimerControlsProps> = ({
         onClick={onReset}
         variant="outline"
         size="lg"
-        className="h-12 w-12 rounded-full border-2 transition-all duration-300 transform hover:scale-110"
+        className="h-12 w-12 rounded-full border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110"
         disabled={time === 0}
       >
         <Icon name="RotateCcw" size={20} />
