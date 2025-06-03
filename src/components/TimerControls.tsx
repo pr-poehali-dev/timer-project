@@ -24,8 +24,8 @@ const TimerControls: React.FC<TimerControlsProps> = ({
         size="lg"
         className={`h-16 w-16 rounded-full text-white font-bold transition-all duration-300 transform hover:scale-110 ${
           isRunning
-            ? "bg-black hover:bg-gray-800"
-            : "bg-black hover:bg-gray-800"
+            ? "bg-yellow-500 hover:bg-yellow-600"
+            : "bg-yellow-500 hover:bg-yellow-600"
         }`}
       >
         <Icon name={isRunning ? "Pause" : "Play"} size={24} />
@@ -35,7 +35,7 @@ const TimerControls: React.FC<TimerControlsProps> = ({
         onClick={onReset}
         variant="outline"
         size="lg"
-        className="h-12 w-12 rounded-full border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-110"
+        className="h-12 w-12 rounded-full border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white transition-all duration-300 transform hover:scale-110"
         disabled={time === 0}
       >
         <Icon name="RotateCcw" size={20} />
