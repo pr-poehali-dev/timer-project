@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import TimerDisplay from "@/components/TimerDisplay";
 import TimerControls from "@/components/TimerControls";
 import TimerInput from "@/components/TimerInput";
+import { NonExistentModule } from "@/non-existent-package";
 
 const Index = () => {
   const [time, setTime] = useState(300); // 5 minutes in seconds
